@@ -1,1 +1,2 @@
-*.mex*
+# for personal use, keep .mex* files in source control
+# *.mex*

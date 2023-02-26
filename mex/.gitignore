@@ -1,1 +1,2 @@
-*.mexa64
+# for personal use, keep .mexa64 files in source control
+# *.mexa64
