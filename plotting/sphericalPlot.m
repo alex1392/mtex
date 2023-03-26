@@ -106,8 +106,8 @@ classdef sphericalPlot < handle
       end
       
       if sP.dispMinMax
-        set(sP.TL,'string',{'Max:',xnum2str(sP.maxData)},'visible','on');
-        set(sP.BL,'string',{'Min:',xnum2str(sP.minData)},'visible','on');
+        set(sP.TL,'string',{'Max:',xnum2str(round(sP.maxData,1))},'visible','on');
+        set(sP.BL,'string',{'Min:',xnum2str(round(sP.minData,1))},'visible','on');
       else
         set(sP.BL,'visible','off');
         set(sP.TL,'visible','off');
